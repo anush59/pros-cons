@@ -1,0 +1,61 @@
+.main {
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.main:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+h1 {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: normal;
+    background-color: #b5b5b5;
+    margin: 0;
+}
+
+.pros-cons-parent {
+    display: table;
+    width: 100%;
+}
+
+.pros-style,
+.cons-style {
+    display: table-cell;
+    vertical-align: top;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.pros-style {
+    border-right: 1px solid #ccc;
+}
+
+.pros-style p,
+.cons-style p {
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+li {
+    padding: 0 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
